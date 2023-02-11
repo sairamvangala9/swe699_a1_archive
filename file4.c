@@ -13,8 +13,8 @@ printf("Team is :");
 printf("\n\t Jagruthi Ashwath");
 printf("\n\t Abhijeet Ghadge");
 printf("\n\t Sai sameer Reddy Munnangi");
-printf("\n \tJoel Samson");
-printf("\n \tSai Ram Vangala");
+printf("\n\t Joel Samson");
+printf("\n\t Sai Ram Vangala");
 return 0;
 }
 
