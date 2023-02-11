@@ -5,16 +5,16 @@
 int main()
 {
 struct utsname sysInfo;
-uname(&sysInfo);
+     uname(&sysInfo);
 printf(" The sysname is: %s\n",sysInfo.sysname);
 printf(" The nodename is: %s\n", sysInfo.nodename);
 printf(" The Machinename is: %s\n", sysInfo.machine);
 printf("Team is :");
-printf("\n\tJagruthi Ashwath");
-printf("\n\tAbhijeet Ghadge");
-printf("\n\tSai sameer Reddy Munnangi");
-printf("\n\tJoel Samson");
-printf("\n\tSai Ram Vangala");
-printf("\n");
-return -1;
+printf("\n\t Jagruthi Ashwath");
+printf("\n\t Abhijeet Ghadge");
+printf("\n\t Sai sameer Reddy Munnangi");
+printf("\n \tJoel Samson");
+printf("\n \tSai Ram Vangala");
+return 0;
 }
+
