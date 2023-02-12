@@ -5,7 +5,7 @@
 int main()
 {
 struct utsname sysInfo;
-     uname(&sysInfo);
+uname(&sysInfo);
 printf(" The sysname is: %s\n",sysInfo.sysname);
 printf(" The nodename is: %s\n", sysInfo.nodename);
 printf(" The Machinename is: %s\n", sysInfo.machine);
